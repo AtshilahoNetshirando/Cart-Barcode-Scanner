@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".EditProductsActivity">
+
+
+    <Button
+        android:id="@+id/cancelEditbtn"
+        android:layout_width="80dp"
+        android:layout_height="41dp"
+        android:background="#00BCD4"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:text="@string/cancel"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.902"
+        tools:text="@string/cancel" />
+
+    <Button
+        android:id="@+id/minusEdittxt"
+        android:layout_width="67dp"
+        android:layout_height="51dp"
+        android:background="#FF9800"
+        android:text="-"
+        android:textColor="@color/zxing_status_text"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.709"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="249dp"
+        android:layout_height="267dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066"
+        app:srcCompat="@drawable/clover" />
+
+    <TextView
+        android:id="@+id/Quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:textColor="#CDDC39"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <TextView
+        android:id="@+id/quantityEdittxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="#FFC107"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/price"
+        android:textColor="#CDDC39"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <TextView
+        android:id="@+id/priceEdittxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R29.89"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605" />
+
+    <Button
+        android:id="@+id/AddEdittxt"
+        android:layout_width="67dp"
+        android:layout_height="51dp"
+        android:background="#FFC107"
+        android:text="+"
+        android:textColor="@color/zxing_status_text"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
+    <Button
+        android:id="@+id/saveEditbtn"
+        android:layout_width="76dp"
+        android:layout_height="41dp"
+        android:background="#00BCD4"
+        android:text="@string/save"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/zxing_custom_result_view"
+        android:text="Product"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:padding="?android:listPreferredItemPaddingLeft"
+        android:id="@+id/textviewProduct"
+        android:layout_marginLeft="40dp"
+        android:textSize="14sp"></TextView>
+
+</FrameLayout>
